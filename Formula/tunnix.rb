@@ -1,20 +1,20 @@
 class Tunnix < Formula
   desc "Encrypted SOCKS5/HTTP proxy tunnel over HTTP/SSE"
   homepage "https://github.com/aeroxy/tunnix"
-  version "0.2.3"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/aeroxy/tunnix/releases/download/0.2.3/tunnix_macos_arm64.zip"
-      sha256 "74d355fb8aeb0856d0df5054237df8b3af1957e3efa1c9e2ecb23ab95afbfaf2"
+      url "https://github.com/aeroxy/tunnix/releases/download/0.4.0/tunnix_macos_arm64.zip"
+      sha256 "c4f1f61d1687a1c3b2ee67f31090fb1e0409a22b7de065d200cbc2320fae46ab"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/aeroxy/tunnix/releases/download/0.2.3/tunnix_linux_x86_64.zip"
-      sha256 "15f03fd737c5ffd5d16ed98adda0061d86ca313d4b3abb7d001cfa569a24daa8"
+      url "https://github.com/aeroxy/tunnix/releases/download/0.4.0/tunnix_linux_x86_64.zip"
+      sha256 "1afb23b7022b373db91d8120b39e5a5f17101d41535ad1da771951167e18705f"
     end
   end
 
