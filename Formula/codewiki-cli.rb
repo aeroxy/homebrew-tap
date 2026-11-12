@@ -1,13 +1,13 @@
 class CodewikiCli < Formula
   desc "Query GitHub repository wikis via Google Code Wiki from the terminal"
   homepage "https://github.com/aeroxy/codewiki-cli"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/aeroxy/codewiki-cli/releases/download/#{version}/codewiki_macos_arm64.zip"
-      sha256 "f5c765bf461638a48a92b34a7b4304a0c9d6c23db73b9f614ae6891e90e16931"
+      sha256 "f4e68d70f9d17cf72c51d06001f5e163f855fb9f0baedc8057ca15f53c1111d1"
     end
   end
 
